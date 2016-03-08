@@ -1,0 +1,70 @@
+
+body {
+    width: 855px;
+    margin: auto;
+    background: ivory;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+header {
+  overflow: auto;
+  border-bottom: 1px solid darkslategray;
+}
+
+h1 {
+  float: left;
+}
+
+
+header p {
+  background: lightblue;
+  float: right;
+  width: 570px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+main {
+  overflow: auto;
+  padding: 30px 0;
+  border-bottom: 1px solid darkslategray;
+}
+
+div {
+  float: left;
+  width: 600px;
+}
+
+div p {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+}
+
+div button {
+  font-weight: bold;
+  padding: 3px;
+  border-radius: 5px;
+  color: ivory;
+  background: olivedrab;
+  cursor: pointer;
+  font-size: 1.5em;
+  margin-left: 5px;
+}
+
+div p:nth-child(even) {
+    background: lavender;
+}
+
+div p:nth-child(odd) {
+    background: gainsboro;
+}
+
+footer {
+    background: lightblue;
+    font-size: smaller;
+    margin-top: 5px;
+    clear: both;
+}
